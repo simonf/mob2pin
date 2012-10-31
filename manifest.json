@@ -6,10 +6,13 @@
     "bookmarks",
     "tabs"
   ],
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+  },
   "browser_action": {
       "default_title": "Mob2Pin",
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
+      "default_icon": "icon.png"
   },
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
